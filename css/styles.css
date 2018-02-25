@@ -2,7 +2,7 @@
 
 /*style for font*/
 body {
-     font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -10,13 +10,12 @@ body {
  header {
 	 text-align: right;
 	 margin-right: 4px;
-	 
  }
  
  
  /*style for font size of common h2*/
  h2 {
-	 font-size: 26px;
+	 font-size: 28px;
  }
  
  
@@ -50,14 +49,16 @@ body {
 
 /*rounding the corners of images but the big one*/
 .round-corners {
-    border-radius: 5px;
+	border-radius: 5px;
 	border: solid 2px #02b3e4;
+	width: 100%;
 }
 
  /*style for the big pic shape*/
 .img-shape {
 	-webkit-clip-path: polygon(48% 27%, 86% 5%, 72% 31%, 100% 57%, 72% 74%, 76% 99%, 24% 84%, 0 88%, 15% 39%, 0 3%);
 	clip-path: polygon(48% 27%, 86% 5%, 72% 31%, 100% 57%, 72% 74%, 76% 99%, 24% 84%, 0 88%, 15% 39%, 0 3%);
+	width: 100%;
 }
 
 /*style for text in figcaption of the pics*/
@@ -76,14 +77,14 @@ body {
 
 /*style for aligning the first section*/
 .section-align {
-	margin: 2em auto;
+	margin: 0.2em auto 2em;
 }
 
 /*style for horizontal rule*/
 #rule {
 	background-color: #02b3e4;
 	height: 3px;
-	margin-top: -5px;
+	margin-top: 5px;
 }
 
 /*style for aligning the container for logo and header*/
@@ -94,10 +95,17 @@ body {
 
 /*style for logo animation*/
 #logo-anim {
+	width: 80px;
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-iteration-count: 5; /* Safari 4.0 - 8.0 */
-    animation-iteration-count: 5;
+	animation-iteration-count: 5;
+}
+
+
+/*style for small text into h2 tag, where applicable*/
+#small-text {
+	font-size: 14px;
 }
