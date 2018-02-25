@@ -35,6 +35,23 @@ body {
 	color: #2d3c49;
 }
 
+/*style for copyright*/
+.copyright-name {
+	font-size: 18px;
+	padding-right: 4px;
+	color: #2d3c49;
+	margin-top: 10px;
+}
+
+/*style for icons*/
+.icons-style {
+	font-size: 28px;
+	color: #2d3c49;
+	margin-bottom: 10px;
+	padding-right: 30px;
+}
+
+
 /*style for Featured Work*/
 .bottom-title {
 	color: #7d97ad;
