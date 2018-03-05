@@ -3,6 +3,10 @@
 /*style for font*/
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/topography.svg"),
+    linear-gradient(65deg, white, snow, aqua, orange, indianred, lime);
+	background-size: auto;
+	
 }
 
 
@@ -10,36 +14,38 @@ body {
  header {
 	 text-align: right;
 	 margin-right: 4px;
+	 margin-top: 5px;/*to align with logo image*/
  }
  
  
  /*style for font size of common h2*/
  h2 {
-	 font-size: 28px;
+	 font-size: 24px;
  }
  
  
  /*style for name of the developer*/
 .main-name {
 	font-size: 34px;
-	font-weight: 200;
+	font-weight: 600;
 	margin-bottom: 10px;
 	padding-right: 4px;
-	color: #2d3c49;
+	color: #0000a0;
 }
 
 /*style for quote*/
 .under-name {
 	font-size: 24px;
+	font-style: italic;
 	padding-right: 4px;
-	color: #2d3c49;
+	color: #0000a0;
 }
 
 /*style for copyright*/
 .copyright-name {
 	font-size: 18px;
 	padding-right: 4px;
-	color: #2d3c49;
+	color: #0000a0;
 	margin-top: 10px;
 }
 
@@ -54,7 +60,7 @@ body {
 
 /*style for Featured Work*/
 .bottom-title {
-	color: #7d97ad;
+	color: #0000a0;
 	text-indent: 4px;
 	padding: 2px auto;
 	letter-spacing: 2px;
@@ -99,7 +105,7 @@ body {
 
 /*style for horizontal rule*/
 #rule {
-	background-color: #02b3e4;
+	background-color: #0000a0;
 	height: 3px;
 	margin-top: 5px;
 }
@@ -113,6 +119,9 @@ body {
 /*style for logo animation*/
 #logo-anim {
 	width: 80px;
+	margin-top: 15px;
+	margin-bottom: -40px;/*to align with header*/
+	border-radius: 30%;
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 	-webkit-animation-duration: 1s;
